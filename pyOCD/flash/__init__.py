@@ -41,6 +41,7 @@ from flash_stm32f103rc import Flash_stm32f103rc
 from flash_stm32f051 import Flash_stm32f051
 from flash_maxwsnenv import Flash_maxwsnenv
 from flash_max32600mbed import Flash_max32600mbed
+from flash_max32620hsp import Flash_max32620hsp
 from flash_w7500 import Flash_w7500
 from flash_lpc11xx_32 import Flash_lpc11xx_32
 from flash_lpc824 import Flash_lpc824
@@ -80,6 +81,7 @@ FLASH = {
          'stm32f051': Flash_stm32f051,
          'maxwsnenv': Flash_maxwsnenv,
          'max32600mbed': Flash_max32600mbed,
+         'max32620hsp': Flash_max32620hsp,
          'w7500': Flash_w7500,
          'lpc11xx_32': Flash_lpc11xx_32,
          'lpc824': Flash_lpc824,

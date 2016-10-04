@@ -46,6 +46,7 @@ import target_stm32f103rc
 import target_stm32f051
 import target_maxwsnenv
 import target_max32600mbed
+import target_max32620hsp
 import target_w7500
 import target_lpc11xx_32
 import target_lpc824
@@ -87,6 +88,7 @@ TARGET = {
           'stm32f051': target_stm32f051.STM32F051,
           'maxwsnenv': target_maxwsnenv.MAXWSNENV,
           'max32600mbed': target_max32600mbed.MAX32600MBED,
+          'max32620hsp': target_max32620hsp.MAX32620HSP,
           'w7500': target_w7500.W7500,
           'lpc11xx_32': target_lpc11xx_32.LPC11XX_32,
           'lpc824': target_lpc824.LPC824,
